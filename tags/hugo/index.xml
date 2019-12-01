@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on HOME</title>
-    <link>https://fucs.gitee.io/tags/hugo/</link>
+    <link>https://flycsuu.github.io/tags/hugo/</link>
     <description>Recent content in Hugo on HOME</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Sun, 01 Dec 2019 19:47:12 +0800</lastBuildDate>
     
-	<atom:link href="https://fucs.gitee.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://flycsuu.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Win10快速搭建个人博客 Hugo&#43;gihub &amp; hugo&#43;码云</title>
-      <link>https://fucs.gitee.io/2019/12/myfirstblog/</link>
+      <link>https://flycsuu.github.io/2019/12/myfirstblog/</link>
       <pubDate>Sun, 01 Dec 2019 19:47:12 +0800</pubDate>
       
-      <guid>https://fucs.gitee.io/2019/12/myfirstblog/</guid>
+      <guid>https://flycsuu.github.io/2019/12/myfirstblog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>LoveIt Theme Preview and Documentation</title>
-      <link>https://fucs.gitee.io/2019/08/loveit-preview/</link>
+      <link>https://flycsuu.github.io/2019/08/loveit-preview/</link>
       <pubDate>Sun, 25 Aug 2019 16:22:42 +0800</pubDate>
       
-      <guid>https://fucs.gitee.io/2019/08/loveit-preview/</guid>
+      <guid>https://flycsuu.github.io/2019/08/loveit-preview/</guid>
       <description>&lt;p&gt;This is a &lt;a href=&#34;https://github.com/dillonzq/LoveIt&#34;&gt;LoveIt&lt;/a&gt; theme preview and documentation page.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Markdown 基本语法预览</title>
-      <link>https://fucs.gitee.io/2019/08/basic-markdown-preview/</link>
+      <link>https://flycsuu.github.io/2019/08/basic-markdown-preview/</link>
       <pubDate>Sun, 25 Aug 2019 16:22:42 +0800</pubDate>
       
-      <guid>https://fucs.gitee.io/2019/08/basic-markdown-preview/</guid>
+      <guid>https://flycsuu.github.io/2019/08/basic-markdown-preview/</guid>
       <description>&lt;p&gt;这是一篇用于预览 :(fab fa-markdown): Markdown 基本语法的文章。&lt;/p&gt;
 
 &lt;p&gt;文章内容基于 &lt;a href=&#34;https://github.github.com/gfm&#34;&gt;GitHub Flavo红色 Markdown Spec&lt;/a&gt;。&lt;/p&gt;
