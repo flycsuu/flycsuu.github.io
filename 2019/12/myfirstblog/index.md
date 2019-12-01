@@ -64,9 +64,12 @@ $ git push -u origin master
 需要创建一个同名仓库，这里以fucs为例。（注意仓库不能为空，空仓库没有Pages选项）
 ![creat](https://gitee.com/fucs/fucs/raw/master/img/myfirstblog/creat.png)
 ### 启动服务
-- 点击服务 -> 服务 -> Pages -> 强制HTTPS -> 启动服务；
+点击服务 -> 服务 -> Pages -> 强制HTTPS -> 启动服务；
+- 点击服务，选择Pages 
 ![service](https://gitee.com/fucs/fucs/raw/master/img/myfirstblog/service.png)
+- 点击启动
 ![start](https://gitee.com/fucs/fucs/raw/master/img/myfirstblog/start.png)
+- 启动成功后会生成自己站点的url，如：[https://fucs.gitee.io/](https://flycsuu.github.io/)
 ![started](https://gitee.com/fucs/fucs/raw/master/img/myfirstblog/started.png)
 - （非必要）手动删除code下的两个README.MD文件;
 ### 站点部署
@@ -91,8 +94,7 @@ $ git pull --rebase origin2 master
 - 实践时发现此处需要重启服务
 ![started](https://gitee.com/fucs/fucs/raw/master/img/myfirstblog/restart.png)
 - 浏览器访问[https://fucs.gitee.io/](https://fucs.gitee.io/)就会看到刚刚搭建的博客站点。
-
-## 图片显示问题
+## 4. 图片显示问题
 还没明白如何使用框架在博客中插入图片，暂时的解决方案是直接应用github或码云的图片链接，有时间再继续研究。不过直接引用的话需要修养引用链接，需要将blob修改掉。
 ```
 https://gitee.com/fucs/fucs/blob/master/img/myfirstblog/xxx.png
