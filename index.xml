@@ -1,7 +1,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>HOME on HOME</title>
-        <link>https://fucs.gitee.io/</link>
+        <link>https://flycsuu.github.io/</link>
         <description>Recent content in HOME on HOME</description>
         <generator>Hugo -- gohugo.io</generator>
         
@@ -14,14 +14,14 @@
         
             <lastBuildDate>Sun, 01 Dec 2019 19:47:12 +0800</lastBuildDate>
         
-        <atom:link href="https://fucs.gitee.io/" rel="self" type="application/rss+xml" />
+        <atom:link href="https://flycsuu.github.io/" rel="self" type="application/rss+xml" />
         
             <item>
                 <title>Posts</title>
-                <link>https://fucs.gitee.io/posts/</link>
+                <link>https://flycsuu.github.io/posts/</link>
                 <pubDate>Sun, 01 Dec 2019 19:47:12 +0800</pubDate>
                 
-                <guid>https://fucs.gitee.io/posts/</guid>
+                <guid>https://flycsuu.github.io/posts/</guid>
                 <description></description>
             </item>
         
