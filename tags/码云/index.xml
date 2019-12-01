@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>码云 on HOME</title>
+    <link>https://fucs.gitee.io/tags/%E7%A0%81%E4%BA%91/</link>
+    <description>Recent content in 码云 on HOME</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Sun, 01 Dec 2019 19:47:12 +0800</lastBuildDate>
+    
+	<atom:link href="https://fucs.gitee.io/tags/%E7%A0%81%E4%BA%91/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Win10快速搭建个人博客 Hugo&#43;gihub &amp; hugo&#43;码云</title>
+      <link>https://fucs.gitee.io/2019/12/myfirstblog/</link>
+      <pubDate>Sun, 01 Dec 2019 19:47:12 +0800</pubDate>
+      
+      <guid>https://fucs.gitee.io/2019/12/myfirstblog/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
