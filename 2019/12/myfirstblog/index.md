@@ -80,4 +80,10 @@ $ git add .
 $ git commit -m "commit for gitee"
 $ git push -u origin2 master
 ```
+- 此时可能出现 err 如下,原因是远程仓库与本地仓库不一致所造成的
+![err](https://gitee.com/fucs/fucs/blob/master/img/myfirstblog/err.png)
+- 此时需要远程同步到本地仓库
+```
+$ git pull --rebase origin master
+```
 - 浏览器访问[https://fucs.gitee.io/](https://fucs.gitee.io/)就会看到刚刚搭建的博客站点。

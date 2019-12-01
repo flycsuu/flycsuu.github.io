@@ -40,7 +40,7 @@
     
         "keywords": "Win10, Hugo, Github, 码云",
     
-    "wordcount":  1092 ,
+    "wordcount":  1141 ,
     "url": "https:\/\/fucs.gitee.io\/2019\/12\/myfirstblog\/",
     
         "datePublished": "2019-12-01T19:47:12\x2b08:00",
@@ -144,7 +144,7 @@
             </div>
             <div class="post-meta-other">
                 <i class="far fa-calendar-alt fa-fw"></i><time datetime=2019-12-01>2019-12-01</time>&nbsp;
-                <i class="fas fa-pencil-alt fa-fw"></i>约 1092 字&nbsp;
+                <i class="fas fa-pencil-alt fa-fw"></i>约 1141 字&nbsp;
                 <i class="far fa-clock fa-fw"></i>预计阅读 3 分钟&nbsp;</div>
         </div>
 
@@ -388,6 +388,19 @@ $ git remote add origin2 https://gitee.com/fucs/fucs.git
 $ git add .
 $ git commit -m &#34;commit for gitee&#34;
 $ git push -u origin2 master</pre></td></tr></table>
+</div>
+</div></li>
+
+<li><p>此时可能出现 err 如下,原因是远程仓库与本地仓库不一致所造成的
+<figure><img src=/images/loading.svg data-sizes=auto data-src=https://gitee.com/fucs/fucs/blob/master/img/myfirstblog/err.png alt=err class=lazyload><figcaption class=image-caption>err</figcaption></figure></p></li>
+
+<li><p>此时需要远程同步到本地仓库</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">$ git pull --rebase origin master</pre></td></tr></table>
 </div>
 </div></li>
 
