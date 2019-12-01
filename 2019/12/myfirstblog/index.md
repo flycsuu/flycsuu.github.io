@@ -1,5 +1,6 @@
 # Win10快速搭建个人博客 Hugo+gihub & hugo+码云
 
+Hugo + github 或 hugo + 码云 搭建个人博客
 
 <!--more-->
 
@@ -7,7 +8,7 @@
 
 主要参考hugo[官网链接](https://www.gohugo.org/)，需要本机预装[git](https://git-scm.com/)。
 ### 快速安装
-- windows可直接github下载对应的版本的[hugo](https://github.com/gohugoio/hugo/releases)到本地文件夹下；
+- windows可直接在github下载对应的版本的[hugo](https://github.com/gohugoio/hugo/releases)到本地文件夹下；
 - 解压hugo文件夹，例如解压到：D:\myblog\hugo；
 - 添加系统变量；
 右键我的电脑 -> 高级系统设置 -> 环境变量 -> 系统变量(Path) -> 添加hugo路径；
@@ -41,7 +42,8 @@ $ hugo server --theme=Loveit --buildDrafts
 ```
 命令窗口提示使用浏览器打开http:\\\localhost:1313进行预览。（如果预览失败，查看下配置文件config.toml是否正确）
 ## 2. Github 部署
-- 在Github上创建仓库(Repository),命名为：flycsuu.github.io (flycsuu替换为自己的Github用户名，都为小写字符)
+- 在Github上创建仓库(Repository),命名为：[flycsuu.github.io](https://flycsuu.github.io/)(flycsuu替换为自己的Github用户名，都为小写字符)
+
 - 在根目录下执行以下命令(Url替换为自己的地址)；
 ```
 $ hugo --theme=LoveIt --baseUrl="https://flycsuu.github.io/" --buildDrafts
@@ -60,12 +62,12 @@ $ git push -u origin master
 码云(Gitee)博客网站的搭建基本于Github一致，一点点的出处在于仓库站点的创建。
 ### 创建仓库
 需要创建一个同名仓库，这里以fucs为例。（注意仓库不能为空，空仓库没有Pages选项）
-![creat](https://gitee.com/fucs/fucs/blob/master/img/myfirstblog/creat.png)
+![creat](https://gitee.com/fucs/fucs/raw/master/img/myfirstblog/creat.png)
 ### 启动服务
 - 点击服务 -> 服务 -> Pages -> 强制HTTPS -> 启动服务；
-![service](https://gitee.com/fucs/fucs/blob/master/img/myfirstblog/service.png)
-![start](https://gitee.com/fucs/fucs/blob/master/img/myfirstblog/start.png)
-![started](https://gitee.com/fucs/fucs/blob/master/img/myfirstblog/started.png)
+![service](https://gitee.com/fucs/fucs/raw/master/img/myfirstblog/service.png)
+![start](https://gitee.com/fucs/fucs/raw/master/img/myfirstblog/start.png)
+![started](https://gitee.com/fucs/fucs/raw/master/img/myfirstblog/started.png)
 - （非必要）手动删除code下的两个README.MD文件;
 ### 站点部署
 - 重新生成站点文件(Url替换为码云地址)
@@ -81,9 +83,19 @@ $ git commit -m "commit for gitee"
 $ git push -u origin2 master
 ```
 - 此时可能出现 err 如下,原因是远程仓库与本地仓库不一致所造成的
-![err](https://gitee.com/fucs/fucs/blob/master/img/myfirstblog/err.png)
+![err](https://gitee.com/fucs/fucs/raw/master/img/myfirstblog/err.png)
 - 此时需要远程同步到本地仓库
 ```
-$ git pull --rebase origin master
+$ git pull --rebase origin2 master
 ```
+- 实践时发现此处需要重启服务
+![started](https://gitee.com/fucs/fucs/raw/master/img/myfirstblog/restart.png)
 - 浏览器访问[https://fucs.gitee.io/](https://fucs.gitee.io/)就会看到刚刚搭建的博客站点。
+
+## 图片显示问题
+还没明白如何使用框架在博客中插入图片，暂时的解决方案是直接应用github或码云的图片链接，有时间再继续研究。不过直接引用的话需要修养引用链接，需要将blob修改掉。
+```
+https://gitee.com/fucs/fucs/blob/master/img/myfirstblog/xxx.png
+# 修改为
+https://gitee.com/fucs/fucs/raw/master/img/myfirstblog/xxx.png
+```
