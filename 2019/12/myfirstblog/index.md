@@ -60,12 +60,12 @@ $ git push -u origin master
 码云(Gitee)博客网站的搭建基本于Github一致，一点点的出处在于仓库站点的创建。
 ### 创建仓库
 需要创建一个同名仓库，这里以fucs为例。（注意仓库不能为空，空仓库没有Pages选项）
-![creat](/creat.png)
+![creat](https://github.com/flycsuu/flycsuu.github.io/blob/master/img/creat.png)
 ### 启动服务
 - 点击服务 -> 服务 -> Pages -> 强制HTTPS -> 启动服务；
-![service](../img/service.png)
-![start](../img/start.png)
-![started](../img/started.png)
+![service](https://github.com/flycsuu/flycsuu.github.io/blob/master/img/service.png)
+![start](https://github.com/flycsuu/flycsuu.github.io/blob/master/img/start.png)
+![started](https://github.com/flycsuu/flycsuu.github.io/blob/master/img/started.png)
 - （非必要）手动删除code下的两个README.MD文件;
 ### 站点部署
 - 重新生成站点文件(Url替换为码云地址)
